@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {"id": "Thinking", "fill": "rgb(88, 24, 69)"},
+
+    {"id": "Diana", "fill": "rgb(204, 204, 255)"},
+
+    {"id": "Tools-Diana", "fill": "rgb(199, 0, 57)"},
+
+    {"id": "Whiteboard", "fill": "rgb(223, 255, 0)"},
+    {"id": "Markers", "fill": "rgb(223, 255, 0)"},
+    {"id": "Stickies", "fill": "rgb(223, 255, 0)"},
+    {"id": "Physical-notebooks", "fill": "rgb(223, 255, 0)"},
+    {"id": "Fountain-pen", "fill": "rgb(223, 255, 0)"},
+
+    {"id": "Miro", "fill": "rgb(255, 191, 0)"},
+    {"id": "Mural", "fill": "rgb(255, 191, 0)"},
+
+    {"id": "Lucidchart", "fill": "rgb(255, 255, 200)"},
+
+    {"id": "Bear", "fill": "rgb(159, 226, 191)"},
+    {"id": "Atom-MD", "fill": "rgb(159, 226, 191)"},
+    {"id": "Visual Studio-MD", "fill": "rgb(159, 226, 191)"},
+
+    {"id": "Confluence", "fill": "rgb(64, 224, 208)"},
+    {"id": "Wiki software", "fill": "rgb(64, 224, 208)"},
+    {"id": "Evernote", "fill": "rgb(64, 224, 208)"},
+    {"id": "Nuclino", "fill": "rgb(64, 224, 208)"},
+    {"id": "Pocket", "fill": "rgb(64, 224, 208)"},
+    {"id": "Slack-form", "fill": "rgb(64, 224, 208)"},
+    {"id": "Card app-iPad", "fill": "rgb(64, 224, 208)"},
+    {"id": "GoodNotes", "fill": "rgb(64, 224, 208)"},
+    {"id": "Living Writer", "fill": "rgb(64, 224, 208)"},
+
+    {"id": "Trello", "fill": "rgb(255, 127, 80)"},
+    {"id": "Jira", "fill": "rgb(255, 127, 80)"},
+
+    {"id": "Google Sheets", "fill": "rgb(144, 12, 63"},
+
+    {"id": "Google Docs", "fill": "rgb(199, 0, 57)"},
+    {"id": "Microsoft Word-F", "fill": "rgb(199, 0, 57)"},
+    {"id": "Google Slides", "fill": "rgb(199, 0, 57)"},
+    {"id": "Keynote", "fill": "rgb(199, 0, 57)"},
+  
+    {"id": "Jekyll", "fill": "rgb(199, 0, 57)"},
+    {"id": "Hugo", "fill": "rgb(199, 0, 57)"}
+
+  ],
+  "links": [
+    ["Diana","Thinking"],
+    ["Thinking","Tools-Diana"],
+    ["Tools-Diana","Whiteboard","Markers", "Physical-notebooks", "Fountain-pen", "Stickies"],
+    ["Tools-Diana","Miro","Mural"],
+    ["Tools-Diana","Lucidchart"],
+    ["Tools-Diana","Bear", "Atom-MD", "Visual Studio-MD"],
+    ["Tools-Diana","Confluence","Wiki software","Evernote","Nuclino", "Pocket", "Slack-form","Card app-iPad", "GoodNotes","Living Writer"],
+    ["Tools-Diana","Trello","Jira"], 
+    ["Tools-Diana","Google Sheets"],
+    ["Tools-Diana","Google Docs", "Microsoft Word-F","Google Slides","Keynote","Miro" ],
+    ["Tools-Diana","Jekyll","Hugo"]
+  ]
+}

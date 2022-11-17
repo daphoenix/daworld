@@ -1,0 +1,17 @@
+.link {
+  fill: none;
+  stroke: #bbb;
+}
+
+/* Complex */
+.node {
+  stroke: #fff;
+  stroke-width: 0px;
+}
+
+/* Simple */
+.node circle {
+  pointer-events: all;
+  stroke: #000;
+  stroke-width: 1px;
+}
