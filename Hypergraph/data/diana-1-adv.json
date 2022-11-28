@@ -1,62 +1,86 @@
 {
     "nodes": [
       {"id": "Thinking", "fill": "rgb(88, 24, 69)"},
+      {"id": "Taking notes", "fill": "rgb(88, 24, 69)"},
+      {"id": "Capturing relevant info", "fill": "rgb(88, 24, 69)"},
+      {"id": "Drafting ideas", "fill": "rgb(88, 24, 69)"},
+      {"id": "Prototyping (coding)", "fill": "rgb(88, 24, 69)"},
+      {"id": "List making or planning", "fill": "rgb(88, 24, 69)"},
+      {"id": "Modeling", "fill": "rgb(88, 24, 69)"},
+      {"id": "Sharing ideas", "fill": "rgb(88, 24, 69)"},
+      {"id": "Digital publishing", "fill": "rgb(88, 24, 69)"},
+      {"id": "Talk or workshop", "fill": "rgb(88, 24, 69)"},
   
       {"id": "Diana", "fill": "rgb(204, 204, 255)"},
   
       {"id": "Tools-Diana", "fill": "rgb(199, 0, 57)"},
   
       {"id": "Whiteboard", "fill": "rgb(223, 255, 0)"},
-      {"id": "Markers", "fill": "rgb(223, 255, 0)"},
       {"id": "Stickies", "fill": "rgb(223, 255, 0)"},
       {"id": "Physical-notebooks", "fill": "rgb(223, 255, 0)"},
-      {"id": "Fountain-pen", "fill": "rgb(223, 255, 0)"},
+      {"id": "Notebook and Pen", "fill": "rgb(223, 255, 0)"},
+      {"id": "Highlighter", "fill": "rgb(223, 255, 0)"},
+      {"id": "Index Cards", "fill": "rgb(223, 255, 0)"},
   
       {"id": "Miro", "fill": "rgb(255, 191, 0)"},
       {"id": "Mural", "fill": "rgb(255, 191, 0)"},
+      {"id": "Lucidchart", "fill": "rgb(255, 191, 0)"},
+      {"id": "UML", "fill": "rgb(255, 191, 0)"},
   
-      {"id": "Lucidchart", "fill": "rgb(255, 255, 200)"},
+      {"id": "Adobe CC", "fill": "rgb(255, 255, 200)"},
   
-      {"id": "Bear", "fill": "rgb(159, 226, 191)"},
-      {"id": "Atom-MD", "fill": "rgb(159, 226, 191)"},
-      {"id": "Visual Studio-MD", "fill": "rgb(159, 226, 191)"},
-  
+      {"id": "Atom", "fill": "rgb(159, 226, 191)"},
+      {"id": "Visual Studio", "fill": "rgb(159, 226, 191)"},
+      {"id": "Jekyll", "fill": "rgb(159, 226, 191)"},
+      {"id": "Hugo", "fill": "rgb(159, 226, 191)"},
+      {"id": "Medium", "fill": "rgb(159, 226, 191)"},
+      {"id": "Hygraph", "fill": "rgb(159, 226, 191)"},
+      {"id": "Github", "fill": "rgb(159, 226, 191)"},
+      {"id": "Cloud Hosting", "fill": "rgb(159, 226, 191)"},
+      {"id": "Wordpress", "fill": "rgb(159, 226, 191)"},
+
+      {"id": "Bear", "fill": "rgb(64, 224, 208)"},
       {"id": "Confluence", "fill": "rgb(64, 224, 208)"},
       {"id": "Wiki software", "fill": "rgb(64, 224, 208)"},
       {"id": "Evernote", "fill": "rgb(64, 224, 208)"},
       {"id": "Nuclino", "fill": "rgb(64, 224, 208)"},
-      {"id": "Pocket", "fill": "rgb(64, 224, 208)"},
-      {"id": "Slack-form", "fill": "rgb(64, 224, 208)"},
-      {"id": "Card app-iPad", "fill": "rgb(64, 224, 208)"},
       {"id": "GoodNotes", "fill": "rgb(64, 224, 208)"},
-      {"id": "Living Writer", "fill": "rgb(64, 224, 208)"},
+      {"id": "LivingWriter", "fill": "rgb(64, 224, 208)"},
+      {"id": "Google Docs", "fill": "rgb(64, 224, 208)"},
+      {"id": "Microsoft Word", "fill": "rgb(64, 224, 208)"},
+      {"id": "IA Writer", "fill": "rgb(64, 224, 208)"},
+      {"id": "Scrivener", "fill": "rgb(64, 224, 208)"},
+      
+      {"id": "Pocket", "fill": "rgb(144, 12, 63)"},
+      {"id": "Slack-form", "fill": "rgb(144, 12, 63)"},
+      {"id": "Slack", "fill": "rgb(144, 12, 63)"},
+      {"id": "Card app-iPad", "fill": "rgb(144, 12, 63)"},
+      {"id": "Discord", "fill": "rgb(144, 12, 63)"},
+      {"id": "Grammarly", "fill": "rgb(144, 12, 63)"},
+      {"id": "Kobo-with-stylus", "fill": "rgb(144, 12, 63)"},
+      {"id": "Social Media", "fill": "rgb(144, 12, 63)"},
+      {"id": "Spark-email", "fill": "rgb(144, 12, 63)"},
   
       {"id": "Trello", "fill": "rgb(255, 127, 80)"},
       {"id": "Jira", "fill": "rgb(255, 127, 80)"},
+      {"id": "Google Sheets", "fill": "rgb(255, 127, 80)"},
   
-      {"id": "Google Sheets", "fill": "rgb(144, 12, 63"},
-  
-      {"id": "Google Docs", "fill": "rgb(199, 0, 57)"},
-      {"id": "Microsoft Word-F", "fill": "rgb(199, 0, 57)"},
       {"id": "Google Slides", "fill": "rgb(199, 0, 57)"},
       {"id": "Keynote", "fill": "rgb(199, 0, 57)"},
-    
-      {"id": "Jekyll", "fill": "rgb(199, 0, 57)"},
-      {"id": "Hugo", "fill": "rgb(199, 0, 57)"}
+      {"id": "ConvertKit", "fill": "rgb(199, 0, 57)"}
   
     ],
     "links": [
       ["Diana","Thinking"],
       ["Thinking","Tools-Diana"],
-      ["Tools-Diana","Whiteboard","Markers", "Physical-notebooks", "Fountain-pen", "Stickies"],
-      ["Tools-Diana","Miro","Mural"],
-      ["Tools-Diana","Lucidchart"],
-      ["Tools-Diana","Bear", "Atom-MD", "Visual Studio-MD"],
-      ["Tools-Diana","Confluence","Wiki software","Evernote","Nuclino", "Pocket", "Slack-form","Card app-iPad", "GoodNotes","Living Writer"],
-      ["Tools-Diana","Trello","Jira"], 
-      ["Tools-Diana","Google Sheets"],
-      ["Tools-Diana","Google Docs", "Microsoft Word-F","Google Slides","Keynote","Miro" ],
-      ["Tools-Diana","Jekyll","Hugo"]
+      ["Tools-Diana", "Taking notes", "Notebook and Pen", "Google Docs", "Bear", "Evernote", "Nuclino", "GoodNotes", "Google Sheets"],
+      ["Tools-Diana", "Capturing relevant info", "Notebook and Pen", "Google Docs", "Highlighter", "Bear", "Evernote", "Pocket", "Slack-form", "Kobo-with-stylus", "Google Sheets"],
+      ["Tools-Diana", "Drafting ideas", "Notebook and Pen", "Google Docs", "Whiteboard", "Miro", "Mural", "Atom", "Visual Studio", "Confluence", "Evernote", "LivingWriter", "Microsoft Word", "IA Writer", "Scrivener"],
+      ["Tools-Diana", "Prototyping and coding", "Atom", "Visual Studio", "Confluence"],
+      ["Tools-Diana", "List making or planning", "Notebook and Pen", "Whiteboard", "Stickies", "Miro", "Evernote", "Trello", "Jira"],
+      ["Tools-Diana", "Modeling", "Whiteboard", "Stickies", "Miro", "Mural", "Lucidchart", "UML"],
+      ["Tools-Diana", "Sharing ideas", "Google Docs", "Miro", "Confluence", "Slack", "Discord", "Spark-email", "Jira", "Google Sheets"],
+      ["Tools-Diana", "Digital publishing", "Google Docs", "Miro", "Adobe CC", "Atom", "Visual Studio", "Jekyll", "Hugo", "Medium", "Hygraph", "Github", "Cloud Hosting", "Wordpress", "Wiki software", "Grammarly", "Social Media", "Google Sheets", "Keynote", "ConvertKit"],
+      ["Tools-Diana", "Talk or workshop", "Google Docs", "Stickies", "Index Cards", "Miro", "Card app-iPad", "Keynote","Google Slides"]
     ]
   }
-  
